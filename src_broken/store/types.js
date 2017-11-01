@@ -1,0 +1,59 @@
+// Getters
+export const GET_SELECTED = 'global/GET_SELECTED'
+export const GET_SELECT_ROW = 'global/GET_SELECT_ROW'
+export const GET_COLUMNS = 'global/GET_COLUMNS'
+export const GET_ALL_COLUMNS = 'global/GET_ALL_COLUMNS'
+export const GET_NEW_ROW = 'global/GET_NEW_ROW'
+export const GET_ERRORS = 'global/GET_ERRORS'
+export const GET_IS_ROW_SELECTED = 'global/GET_IS_ROW_SELECTED'
+
+export const GET_BUTTONS = 'global/GET_BUTTONS'
+export const GET_ALWAYS_VISIBLE_BUTTONS = 'global/GET_ALWAYS_VISIBLE_BUTTONS'
+
+export const GET_DATA = 'global/GET_DATA'
+
+export const GLOBAL_GET_RENTAL = 'local/GLOBAL_GET_RENTAL'
+export const GLOBAL_GET_CUSTOMER = 'local/GLOBAL_GET_CUSTOMER'
+export const GLOBAL_GET_CONTACT = 'local/GLOBAL_GET_CONTACT'
+export const GLOBAL_GET_INVENTORY = 'local/GLOBAL_GET_INVENTORY'
+export const GLOBAL_GET_ASSET = 'local/GLOBAL_GET_ASSET'
+
+// Mutations
+export const MUTATE_SELECTED = 'global/MUTATE_SELECTED';
+export const MUTATE_SELECT_ROW = 'global/MUTATE_SELECT_ROW'
+export const MUTATE_RELEASE_ROW = 'global/MUTATE_RELEASE_ROW'
+export const MUTATE_COLUMNS = 'global/MUTATE_COLUMNS'
+export const MUTATE_ALL_COLUMNS = 'global/MUTATE_ALL_COLUMNS'
+export const MUTATE_UPDATE_ROW = 'global/MUTATE_UPDATE_ROW'
+export const MUTATE_NEW_ROW = 'global/MUTATE_NEW_ROW'
+export const MUTATE_IS_ROW_SELECTED = 'global/MUTATE_IS_ROW_SELECTED'
+export const MUTATE_BUTTONS = 'global/MUTATE_BUTTONS'
+
+export const MUTATE_ALWAYS_VISIBLE_BUTTONS = 'global/MUTATE_ALWAYS_VISIBLE_BUTTONS'
+
+export const MUTATE_DATA = 'global/MUTATE_DATA'
+
+export const MUTATE_CLEAR_DATA = 'global/MUTATE_CLEAR_DATA'
+
+export const GLOBAL_MUTATE_RENTAL = 'local/GLOBAL_MUTATE_RENTAL'
+export const GLOBAL_MUTATE_CUSTOMER = 'local/GLOBAL_MUTATE_CUSTOMER'
+export const GLOBAL_MUTATE_CONTACT = 'local/GLOBAL_MUTATE_CONTACT'
+export const GLOBAL_MUTATE_INVENTORY = 'local/GLOBAL_MUTATE_INVENTORY'
+export const GLOBAL_MUTATE_ASSET = 'local/GLOBAL_MUTATE_ASSET'
+
+// Actions
+export const ACTION_SELECTED = 'global/ACTION_SELECTED'
+export const ACTION_RELEASE_ROW = 'global/ACTION_RELEASE_ROW'
+export const ACTION_SELECT_ROW = 'global/ACTION_SELECT_ROW'
+export const ACTION_COLUMNS = 'global/ACTION_COLUMNS'
+export const ACTION_ALL_COLUMNS = 'global/ACTION_ALL_COLUMNS'
+export const ACTION_UPDATE_ROW = 'global/ACTION_UPDATE_ROW'
+export const ACTION_NEW_ROW = 'global/ACTION_NEW_ROW'
+export const ACTION_IS_ROW_SELECTED = 'global/ACTION_IS_ROW_SELECTED'
+export const ACTION_BUTTONS = 'global/ACTION_BUTTONS'
+export const ACTION_DATA = 'global/ACTION_DATA'
+export const GLOBAL_ACTION_RENTAL = "local/GLOBAL_ACTION_RENTAL"
+export const GLOBAL_ACTION_CUSTOMER = "local/GLOBAL_ACTION_CUSTOMER"
+export const GLOBAL_ACTION_CONTACT = "local/GLOBAL_ACTION_CONTACT"
+export const GLOBAL_ACTION_INVENTORY = "local/GLOBAL_ACTION_INVENTORY"
+export const GLOBAL_ACTION_ASSET = "local/GLOBAL_ACTION_ASSET"

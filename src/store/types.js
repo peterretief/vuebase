@@ -1,0 +1,176 @@
+// Getters
+
+export const GET_SELECTED = 'global/GET_SELECTED'
+export const GET_SELECT_ROW = 'global/GET_SELECT_ROW'
+export const GET_COLUMNS = 'global/GET_COLUMNS'
+export const GET_ALL_COLUMNS = 'global/GET_ALL_COLUMNS'
+export const GET_NEW_ROW = 'global/GET_NEW_ROW'
+export const GET_ERRORS = 'global/GET_ERRORS'
+export const GET_IS_ROW_SELECTED = 'global/GET_IS_ROW_SELECTED'
+
+//export const GET_BUTTONS = 'global/GET_BUTTONS'
+//export const GET_ALWAYS_VISIBLE_BUTTONS = 'global/GET_ALWAYS_VISIBLE_BUTTONS'
+
+//export const GET_DATA = 'global/GET_DATA'
+
+//export const GLOBAL_GET_RENTAL = 'local/GLOBAL_GET_RENTAL'
+//export const GLOBAL_GET_CUSTOMER = 'local/GLOBAL_GET_CUSTOMER'
+//export const GLOBAL_GET_CONTACT = 'local/GLOBAL_GET_CONTACT'
+//export const GLOBAL_GET_INVENTORY = 'local/GLOBAL_GET_INVENTORY'
+//export const GLOBAL_GET_ASSET = 'local/GLOBAL_GET_ASSET'
+
+//export const GET_SUB_COLUMN = 'global/GET_SUB_COLUMN'
+//export const GET_ASSET_DATA = 'global/GET_ASSET_DATA'
+
+//export const GET_COMPANY_NAME = 'global/GET_COMPANY_NAME'
+
+
+//static getters
+export const RENTAL_EDIT_FIELDS = 'global/RENTAL_EDIT_FIELDS'
+export const CUSTOMER_EDIT_FIELDS = 'global/CUSTOMER_EDIT_FIELDS'
+export const CONTACT_EDIT_FIELDS = 'global/RENTAL_EDIT_FIELDS'
+export const INVENTORY_EDIT_FIELDS = 'global/INVENTORY_EDIT_FIELDS'
+export const ASSET_EDIT_FIELDS = 'global/ASSET_EDIT_FIELDS'
+
+/*
+export const RENTAL_BUTTONS_ALWAYS_VISIBLE = 'global/RENTAL_BUTTONS_ALWAYS_VISIBLE'
+export const CUSTOMER_BUTTONS_ALWAYS_VISIBLE = 'global/CUSTOMER_BUTTONS_ALWAYS_VISIBLE'
+export const CONTACT_BUTTONS_ALWAYS_VISIBLE = 'global/CONTACT_BUTTONS_ALWAYS_VISIBLE'
+export const INVENTORY_BUTTONS_ALWAYS_VISIBLE = 'global/INVENTORY_BUTTONS_ALWAYS_VISIBLE'
+export const ASSET_BUTTONS_ALWAYS_VISIBLE = 'global/ASSET_BUTTONS_ALWAYS_VISIBLE'
+*/
+
+//export const RENTAL_BUTTONS = 'global/RENTAL_BUTTONS'
+//export const CUSTOMER_BUTTONS = 'global/CUSTOMER_BUTTONS'
+//export const CONTACT_BUTTONS = 'global/CONTACT_BUTTONS'
+//export const INVENTORY_BUTTONS = 'global/INVENTORY_BUTTONS'
+//export const ASSET_BUTTONS = 'global/ASSET_BUTTONS'
+
+export const RENTAL_COLUMNS = 'global/RENTAL_COLUMNS'
+export const CUSTOMER_COLUMNS = 'global/CUSTOMER_COLUMNS'
+export const CONTACT_COLUMNS = 'global/CONTACT_COLUMNS'
+export const INVENTORY_COLUMNS = 'global/INVENTORY_COLUMNS'
+export const ASSET_COLUMNS = 'global/ASSET_COLUMNS'
+export const EVENT_COLUMNS = 'global/EVENT_COLUMNS'
+
+export const GET_ASSET_BY_ID = 'global/GET_ASSET_BY_ID'
+export const GET_EVENT_BY_ID = 'global/GET_EVENT_BY_ID'
+
+export const GET_ASSET_ROW_BY_ID = 'global/GET_ASSET_ROW_BY_ID'
+export const GET_EVENT_ROW_BY_ID = 'global/GET_EVENT_ROW_BY_ID'
+
+export const GET_ASSET_ID = 'global/GET_ASSET_ID'
+export const GET_EVENT_ID = 'global/GET_EVENT_ID'
+
+export const GET_ALL_RENTAL_DATA = 'global/GET_ALL_RENTAL_DATA'
+export const GET_ALL_CUSTOMER_DATA = 'global/GET_ALL_CUSTOMER_DATA'
+export const GET_ALL_CONTACT_DATA = 'global/GET_ALL_CONTACT_DATA'
+export const GET_ALL_INVENTORY_DATA = 'global/GET_ALL_INVENTORY_DATA'
+export const GET_ALL_ASSET_DATA = 'global/GET_ALL_ASSET_DATA'
+export const GET_ALL_EVENT_DATA = 'global/GET_ALL_EVENT_DATA'
+//export const asset = 'global/asset'
+
+
+// Mutations
+export const MUTATE_SELECTED = 'global/MUTATE_SELECTED';
+export const MUTATE_SELECT_ROW = 'global/MUTATE_SELECT_ROW'
+export const MUTATE_RELEASE_ROW = 'global/MUTATE_RELEASE_ROW'
+export const MUTATE_COLUMNS = 'global/MUTATE_COLUMNS'
+export const MUTATE_ALL_COLUMNS = 'global/MUTATE_ALL_COLUMNS'
+export const MUTATE_UPDATE_ROW = 'global/MUTATE_UPDATE_ROW'
+export const MUTATE_NEW_ROW = 'global/MUTATE_NEW_ROW'
+export const MUTATE_IS_ROW_SELECTED = 'global/MUTATE_IS_ROW_SELECTED'
+export const MUTATE_BUTTONS = 'global/MUTATE_BUTTONS'
+
+export const MUTATE_ALWAYS_VISIBLE_BUTTONS = 'global/MUTATE_ALWAYS_VISIBLE_BUTTONS'
+
+export const MUTATE_DATA = 'global/MUTATE_DATA'
+
+export const MUTATE_CLEAR_DATA = 'global/MUTATE_CLEAR_DATA'
+
+export const GLOBAL_MUTATE_RENTAL = 'local/GLOBAL_MUTATE_RENTAL'
+export const GLOBAL_MUTATE_CUSTOMER = 'local/GLOBAL_MUTATE_CUSTOMER'
+export const GLOBAL_MUTATE_CONTACT = 'local/GLOBAL_MUTATE_CONTACT'
+export const GLOBAL_MUTATE_INVENTORY = 'local/GLOBAL_MUTATE_INVENTORY'
+export const GLOBAL_MUTATE_ASSET = 'local/GLOBAL_MUTATE_ASSET'
+
+export const MUTATE_GET_SUB_COLUMN = 'global/MUTATE_GET_SUB_COLUMN'
+export const MUTATE_GET_SUB_DATA = 'global/MUTATE_GET_SUB_DATA'
+
+export const MUTATE_SET_ASSET = 'global/MUTATE_SET_ASSET'
+
+export const MUTATE_UPDATE_ASSET = 'global/MUTATE_UPDATE_ASSET'
+export const MUTATE_UPDATE_RENTAL = 'global/MUTATE_UPDATE_RENTAL'
+
+export const MUTATE_COMPANY_NAME = 'global/MUTATE_COMPANY_NAME'
+export const MUTATE_ASSET_BY_ID = 'global/MUTATE_ASSET_BY_ID'
+
+export const MUTATE_ASSET_ROW_BY_ID = 'global/MUTATE_ASSET_ROW_BY_ID'
+
+//good from here
+export const MUTATE_ALL_RENTAL_DATA = 'global/MUTATE_ALL_RENTAL_DATA'
+export const MUTATE_ALL_EVENT_DATA = 'global/MUTATE_ALL_EVENT_DATA'
+export const MUTATE_ALL_CUSTOMER_DATA = 'global/MUTATE_ALL_CUSTOMER_DATA'
+export const MUTATE_ALL_CONTACT_DATA = 'global/MUTATE_ALL_CONTACT_DATA'
+export const MUTATE_ALL_INVENTORY_DATA = 'global/MUTATE_ALL_INVENTORY_DATA'
+export const MUTATE_ALL_ASSET_DATA = 'global/MUTATE_ALL_ASSET_DATA'
+
+export const MUTATE_UPDATE_EVENT = 'global/MUTATE_UPDATE_EVENT'
+
+export const MUTATE_INSERT_NEW_RENTAL = 'global/MUTATE_INSERT_NEW_RENTAL'
+export const MUTATE_INSERT_NEW_EVENT = 'global/MUTATE_INSERT_NEW_EVENT'
+
+
+
+
+// Actions
+export const ACTION_UPDATE_ASSET = 'global/ACTION_UPDATE_ASSET'
+export const ACTION_UPDATE_RENTAL = 'global/ACTION_UPDATE_RENTAL'
+export const ACTION_UPDATE_CUSTOMER = 'global/ACTION_UPDATE_CUSTOMER'
+
+
+
+export const ACTION_SELECTED = 'global/ACTION_SELECTED'
+export const ACTION_RELEASE_ROW = 'global/ACTION_RELEASE_ROW'
+export const ACTION_SELECT_ROW = 'global/ACTION_SELECT_ROW'
+export const ACTION_COLUMNS = 'global/ACTION_COLUMNS'
+export const ACTION_ALL_COLUMNS = 'global/ACTION_ALL_COLUMNS'
+export const ACTION_UPDATE_ROW = 'global/ACTION_UPDATE_ROW'
+export const ACTION_NEW_ROW = 'global/ACTION_NEW_ROW'
+export const ACTION_IS_ROW_SELECTED = 'global/ACTION_IS_ROW_SELECTED'
+export const ACTION_BUTTONS = 'global/ACTION_BUTTONS'
+export const ACTION_DATA = 'global/ACTION_DATA'
+/*
+export const GLOBAL_ACTION_RENTAL = "local/GLOBAL_ACTION_RENTAL"
+export const GLOBAL_ACTION_CUSTOMER = "local/GLOBAL_ACTION_CUSTOMER"
+export const GLOBAL_ACTION_CONTACT = "local/GLOBAL_ACTION_CONTACT"
+export const GLOBAL_ACTION_INVENTORY = "local/GLOBAL_ACTION_INVENTORY"
+export const GLOBAL_ACTION_ASSET = "local/GLOBAL_ACTION_ASSET"
+*/
+
+//CHECK
+export const ACTION_LOAD_ASSETS = "local/ACTION_LOAD_ASSETS"
+
+export const ACTION_UPDATE_ASSETS = "local/ACTION_UPDATE_ASSETS"
+export const ACTION_UPDATE_RENTALS = "local/ACTION_UPDATE_RENTALS"
+
+//export const ACTION_COMPANY_NAME = "local/ACTION_COMPANY_NAME"
+
+export const ACTION_ASSET_BY_ID = "local/ACTION_ASSET_BY_ID"
+
+export const ACTION_ALL_RENTAL_DATA = "local/ACTION_ALL_RENTAL_DATA"
+export const ACTION_ALL_EVENT_DATA = "local/ACTION_ALL_EVENT_DATA"
+export const ACTION_ALL_CUSTOMER_DATA = "local/ACTION_ALL_CUSTOMER_DATA"
+export const ACTION_ALL_CONTACT_DATA = "local/ACTION_ALL_CONTACT_DATA"
+export const ACTION_ALL_INVENTORY_DATA = "local/ACTION_ALL_INVENTORY_DATA"
+export const ACTION_ALL_ASSET_DATA = "local/ACTION_ALL_ASSET_DATA"
+export const ACTION_REMOVE_ROW = "local/ACTION_REMOVE_ROW"
+
+export const ACTION_UPDATE_EVENT = "local/ACTION_UPDATE_EVENT"
+
+
+export const ACTION_INSERT_NEW_RENTAL = "local/ACTION_INSERT_NEW_RENTAL"
+
+export const ACTION_INSERT_NEW_EVENT = "local/ACTION_INSERT_NEW_EVENT"
+
+export const ACTION_INSERT_NEW_CUSTOMER = "local/ACTION_INSERT_NEW_CUSTOMER"

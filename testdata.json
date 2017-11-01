@@ -1,0 +1,12 @@
+{"id": 2,
+  "status": 1,
+  "comments": "Deposit has been paid client to collect on 25th December jhjkhjkh",
+  "name": "DEFQUOTE", 
+  "event":
+  [ { "id": 2,
+    "update_date": "2017-10-13T09:43:15.919Z",
+    "name": "Rental",
+    "rental_id": 2,
+    "asset_id": 1 }
+    ],
+  "customer_id": 1 }
